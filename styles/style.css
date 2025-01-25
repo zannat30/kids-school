@@ -1,0 +1,340 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.header-section {
+    display: flex;
+    row-gap: 186px;
+    /* max-width: 1160px; */
+    padding: 0px 141px;
+    align-items: center;
+  
+    justify-content: space-between;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 202px;
+    height: 62px; */
+
+
+}
+
+.school {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+
+}
+
+/* .img{
+    width: 62px;
+    height: 62px;
+} */
+.header-nav {
+    display: flex;
+    gap: 32px;
+
+    text-decoration-line: none;
+
+
+}
+
+.nav-item1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+
+}
+
+.nav-item2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(1, 172, 253);
+
+}
+
+.nav-item3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(5, 212, 223);
+
+}
+
+.nav-item4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(93, 88, 239);
+
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 163, 1);
+    padding: 15px 50px;
+    text-align: center;
+
+    border-radius: 12px;
+    border: none;
+
+}
+
+/* color */
+.color1 {
+    color: rgb(0, 0, 0);
+}
+
+.color2 {
+    color: rgb(102, 102, 102);
+}
+
+/* banner-items */
+
+
+.empowering {
+    color: rgb(254, 163, 1);
+}
+
+.vision {
+    color: rgb(1, 172, 253);
+}
+
+.student {
+    color: rgb(17, 17, 17);
+}
+
+.banner{
+    display: flex;
+    margin: 0px 140px;
+  gap: 50px; 
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.banner-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 122px 0px 122px 0px;
+  
+   
+  
+    
+} 
+
+ .banner-title {
+    font-size: 56px;
+    font-weight: 700;
+
+} 
+
+.banner-paragraph {
+     font-size: 20px;
+    font-weight: 400;
+    padding: 24px 0px;
+    color: rgb(17, 17, 17);
+
+} 
+
+.banner-button {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.banner-img {
+    display: flex;
+    
+ 
+   
+    
+    
+
+
+
+
+
+
+}
+
+/* standard curriculum */
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 140px;
+    gap: 80px;
+    background-image: url('../assets/bg.png');
+    border-top: 1px dashed rgb(128, 128, 128);
+    border-bottom: 1px dashed rgb(128, 128, 128);
+
+
+}
+.banner2-title{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+
+    gap: 28.29px;
+
+
+
+}
+
+.card1 {
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.56px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 33.40px;
+}
+
+.card1-title {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card1-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 15.34px;
+    font-weight: 500;
+
+}
+
+.card1-button {
+    font-size: 15.9px;
+    font-weight: 700;
+    color: rgb(100, 200, 255);
+    background-color: white;
+    border: none;
+}
+
+.card2 {
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 33.40px;
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+}
+
+.card2-title {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card2-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15.34px;
+    font-weight: 500;
+
+}
+
+.card2-button {
+    font-size: 15.9px;
+    font-weight: 700;
+    color: rgb(240, 170, 0);
+    background-color: white;
+    border: none;
+
+}
+
+.card3 {
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 33.40px;
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+}
+
+.card3-title {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card3-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15.34px;
+    font-weight: 500;
+
+}
+
+.card3-button {
+    font-size: 15.9px;
+    font-weight: 700;
+    color: rgb(135, 0, 255);
+    background-color: white;
+    border: none;
+
+}
+.banner2-button{
+    display: flex;
+    gap: 10px;
+   
+}
+.button1{font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 17px 22.5px 19px 22.13px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: rgb(254, 163, 1);
+    border: none;
+}
+.button2{font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 17px 22.5px 19px 22.13px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: rgb(254, 163, 1);
+    border: none;
+}
