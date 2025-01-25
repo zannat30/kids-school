@@ -1,11 +1,17 @@
-.open-sans-normal {
-    font-family: "Open Sans", serif;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
+    
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
 
 .header-section {
     display: flex;
@@ -13,7 +19,7 @@
     /* max-width: 1160px; */
     padding: 0px 141px;
     align-items: center;
-  
+
     justify-content: space-between;
 
 }
@@ -117,41 +123,40 @@
     color: rgb(17, 17, 17);
 }
 
-.banner{
+.banner {
     display: flex;
     margin: 0px 140px;
-  gap: 50px; 
-  justify-content: space-between;
-  align-items: center;
-  
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .banner-description {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    
     flex-direction: column;
-    padding: 122px 0px 122px 0px;
-  
-   
-  
-    
-} 
+     padding: 122px 0px 122px 0px;
 
- .banner-title {
+
+
+
+}
+
+.banner-title {
     font-size: 56px;
     font-weight: 700;
 
-} 
+}
 
 .banner-paragraph {
-     font-size: 20px;
+    font-size: 20px;
     font-weight: 400;
     padding: 24px 0px;
     color: rgb(17, 17, 17);
 
-} 
+}
 
 .banner-button {
     font-size: 20px;
@@ -163,20 +168,10 @@
 
 }
 
-.banner-img {
-    display: flex;
-    
- 
-   
-    
-    
+/* .banner-img {
+    height: 100%; 
+}*/
 
-
-
-
-
-
-}
 
 /* standard curriculum */
 .banner2 {
@@ -192,7 +187,8 @@
 
 
 }
-.banner2-title{
+
+.banner2-title {
     font-size: 46px;
     font-weight: 700;
 }
@@ -313,28 +309,81 @@
     border: none;
 
 }
-.banner2-button{
+
+.banner2-button {
     display: flex;
     gap: 10px;
-   
+
 }
-.button1{font-size: 24px;
+
+.button1 {
+    font-size: 24px;
     font-weight: 900;
     text-align: center;
     padding: 17px 22.5px 19px 22.13px;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: rgb(254, 163, 1);
     border: none;
 }
-.button2{font-size: 24px;
+
+ .button2 {
+    font-size: 24px;
     font-weight: 900;
     text-align: center;
     padding: 17px 22.5px 19px 22.13px;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: rgb(254, 163, 1);
     border: none;
-}
+} 
+ .fa-solid .fa-chevron-right{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 17px 22.5px 19px 22.13px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+    border: none;
+ }
+ .banner3{
+    display: flex;
+    flex-direction: column;
+ }
+ .banner-heading{
+
+ }
+ .banner3-cards{
+
+ }
+ .banner3-card1{
+
+ }
+ .card-img1{
+
+ }
+ .card-button1{
+
+ }
+ .card-paragraph{
+
+ }
+ .card-description{
+
+ }
+  .banner3-card2{
+
+  }
+  .banner3-card3{
+
+  }
+   .banner3-card4{
+
+  }
+  .banner3-card5{
+
+  }
