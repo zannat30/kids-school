@@ -4,12 +4,13 @@
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    
-  }
-  *{
+
+}
+
+* {
     margin: 0px;
     padding: 0px;
-  }
+}
 
 
 
@@ -137,7 +138,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-     padding: 122px 0px 122px 0px;
+    padding: 122px 0px 122px 0px;
 
 
 
@@ -315,7 +316,7 @@
     gap: 10px;
 
 }
-
+/* 
 .button1 {
     font-size: 24px;
     font-weight: 900;
@@ -328,7 +329,7 @@
     border: none;
 }
 
- .button2 {
+.button2 {
     font-size: 24px;
     font-weight: 900;
     text-align: center;
@@ -338,8 +339,9 @@
     border-radius: 50%;
     background-color: rgb(254, 163, 1);
     border: none;
-} 
- .fa-solid .fa-chevron-right{
+}
+
+.fa-solid .fa-chevron-right {
     font-size: 24px;
     font-weight: 900;
     text-align: center;
@@ -349,41 +351,434 @@
     border-radius: 50%;
     background-color: rgb(254, 163, 1);
     border: none;
- }
- .banner3{
+} */
+
+
+.button1, .button2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 17px 22.5px 19px 22.13px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+    border: none;
+}
+i:hover{
+    font-size: 44px;
+    font-weight: 900;
+
+    
+}
+
+.banner3 {
     display: flex;
     flex-direction: column;
- }
- .banner-heading{
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+
+
+    
+
+    background: url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+
+
+}
+
+.banner-heading {
+    font-size: 46px;
+    font-size: 700;
+    
+
+}
+.banner3-cards{
+    display: flex;
+    /* flex: 1; */
+    gap: 19px;
+    padding: 0px 141px;
+
+ 
+    
+    
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+.banner3-item{
+    padding: 51.77px 68px 34px 38px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    position: relative;
+    top: -52px;
+    gap: 51.77px;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.card-paragraph{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-description{
+    font-size:15.34px ;
+    font-weight:500 ;
+}
+.card-img1{
+    border-radius: 16px 16px 0px 0px;
+
+}
+.banner3-btn1{
+    display: grid;
+    position: relative;
+    z-index: 3;
+    top: -20px;
+    padding-left: 57.50px;
+    justify-content: flex-start;
+
+
+}
+.card-button1{
+    font-size: 15.35px;
+    font-weight:500 ;
+    color: rgb(255, 255, 255);
+    border-radius: 47.93px;
+    border: none;
+    padding: 14.50px 18.50px;
+
+background: rgb(60, 216, 232);
+
+}
+.secondary-card{
+    display: grid;
+    column-gap: 19px;
+    row-gap: 19px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+ .card-img2{
+    border-radius: 16px 16px 0px 0px;
+}  
+.banner3-card2{
+    display: flex;
+    flex-direction: column;
+}
+.banner3-item2{
+    padding: 40px 54px 33px 37px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    position: relative;
+    top: -45px;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.banner3-btn2{
+    display: grid;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+    padding-left: 37px;
+    
+    justify-content: flex-start;
+
+
+}
+
+.card-button2{
+    font-size: 15.35px;
+    font-weight:500 ;
+    color: rgb(255, 255, 255);
+    border-radius: 47.93px;
+    border: none;
+    padding: 9.70px 19.50px;
+
+background: rgb(149, 178, 38);
+
+
+}
+.banner3-card3{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner3-item3{
+    padding: 40px 54px 33px 37px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    position: relative;
+    top: -45px;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.banner3-btn3{
+    display: grid;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+    padding-left: 37px;
+    
+    justify-content: flex-start;
+
+
+}
+
+.card-button3{
+    font-size: 15.35px;
+    font-weight:500 ;
+    color: rgb(255, 255, 255);
+    border-radius: 47.93px;
+    border: none;
+    padding: 9.70px 19.50px;
+
+background: rgb(93, 88, 240);
+
+
+}
+.banner3-card4{
+    display: flex;
+    flex-direction: column;
+}
+.banner3-item4{
+    padding: 40px 54px 33px 37px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    position: relative;
+    top: -45px;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.banner3-btn4{
+    display: grid;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+    padding-left: 37px;
+    
+    justify-content: flex-start;
+
+
+}
+
+.card-button4{
+    font-size: 15.35px;
+    font-weight:500 ;
+    color: rgb(255, 255, 255);
+    border-radius: 47.93px;
+    border: none;
+    padding: 9.70px 19.50px;
+
+background:rgb(149, 178, 38);
+
+
+}
+.banner3-card5{
+    display: flex;
+    flex-direction: column;
+}
+.banner3-item5{
+    padding: 40px 54px 33px 37px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    position: relative;
+    top: -45px;
+    border-radius: 0px 0px 16px 16px;
+
+}
+.banner3-btn5{
+    display: grid;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+    padding-left: 37px;
+    
+    justify-content: flex-start;
+
+
+}
+
+.card-button5{
+    font-size: 15.35px;
+    font-weight:500 ;
+    color: rgb(255, 255, 255);
+    border-radius: 47.93px;
+    border: none;
+    padding: 9.70px 19.50px;
+
+background: rgb(149, 178, 38);
+
+
+}
+
+
+/* .banner3-cards {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(2,1fr); 
+    gap: 19px;
+ 
+    margin: 0px 140px;
+    
+
+
+} 
+/*  
+/* 
+.banner3-card2 {
+    display: flex;
+    flex-direction: column;
+  
+    border: none;
+
+}
+.banner3-item2{
+    padding: 28.50px 38.50px;
+    background-color:rgb(255, 255, 255) ;
+    justify-content: flex-start;
+}
+
+
+.card-img2 {}
+
+.card-button2 {
+    font-size: 15.34px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 15px 18px;
+    background-color: rgb(60, 216, 232);
+    border: none;
+    border-radius: 47.93px;
+
+
+    
+}
+
+.card-paragraph2 {
+    font-size: 15.34px;
+    font-weight: 700;
+}
+
+ .banner3-card3 {
+    display: flex;
+    flex-direction: column;
+  
+    border: none;
 
  }
- .banner3-cards{
+
+.card-img3 {}
+
+.card-button3 {}
+
+ .banner3-card4 {
+    display: flex;
+    flex-direction: column;
+  
+    border: none;
 
  }
- .banner3-card1{
+
+.card-img4 {}
+
+.card-button4 {}
+
+ .banner3-card5 {
+    display: flex;
+    flex-direction: column;
+  
+    border: none;
 
  }
- .card-img1{
 
- }
- .card-button1{
+.card-img5 {
+   
+}
 
- }
- .card-paragraph{
+.card-button5 {} */
 
- }
- .card-description{
+.view-all{
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(17, 17, 17) ;
+    border-radius:12px ;
+    padding: 10px 60px;
+}
+.banner4{
+    display: flex;
+    justify-content: space-between;
+    gap: 172px;
+    padding: 123px 228px 174px 140px;
+    background-color: rgb(1, 172, 253);
+}
+.banner4-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner4-column1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+    justify-content: flex-start;
+}
+.banner4-head{
+    display: flex;
+    gap: 10.7px;
+    align-items: center;
+}
+.banner4-title{
+    display: flex;
+    align-items: flex-start;
+    font-size: 42.14px;
+    font-weight: 700;
+    /* width: 399px; */
+    color:rgb(255, 255, 255) ;
+}
+.banner4-description{
+    font-size:20px ;
+    font-weight:400 ;
+    color:rgb(255, 255, 255) ;
+}
+.column2-title{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.size{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(255, 255, 255) ;
+}
+.decoration{
+    text-decoration: none;
+}
+.banner4-column3{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.column3-title{
+    color: rgb(255, 255, 255);
 
- }
-  .banner3-card2{
+font-size: 26px;
+font-weight: 700;
 
-  }
-  .banner3-card3{
+}
+.banner-icons{
+    display: flex;
+    gap: 8px;
 
-  }
-   .banner3-card4{
+}
 
-  }
-  .banner3-card5{
-
-  }
